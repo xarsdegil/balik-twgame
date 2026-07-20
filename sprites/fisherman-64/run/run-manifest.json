@@ -1,0 +1,57 @@
+{
+  "reference": {
+    "source_type": "file",
+    "source": "C:/Users/9060XT V1/Downloads/char.png",
+    "copied_reference": "run/source/reference-char.png",
+    "used_for_generation": true,
+    "identity_notes": [
+      "compact chibi fisherman proportions",
+      "navy blue ribbed knit cap with dark brim",
+      "tan face with dark hair or beard pixels",
+      "orange-brown jacket and trousers",
+      "green backpack or tackle accessory",
+      "dark boots and warm earthy limited palette"
+    ]
+  },
+  "scope": {
+    "sizes": [64],
+    "actions": ["idle", "fishing"],
+    "directions": ["south"],
+    "frames_by_action": {
+      "idle": 4,
+      "fishing": 6
+    }
+  },
+  "generation": {
+    "method": "imagegen",
+    "imagegen_output_path": "run/source/64-idle-south-imagegen.png",
+    "procedural": false,
+    "text_only": false,
+    "imported_contact_sheet": false
+  },
+  "strips": [
+    {
+      "cell": 64,
+      "action": "idle",
+      "direction": "south",
+      "frames": 4,
+      "method": "imagegen",
+      "imagegen_output_path": "run/source/64-idle-south-imagegen.png",
+      "source_path": "run/64/generated/idle-south.png",
+      "prompt_path": "run/64/prompts/idle-south.txt"
+    },
+    {
+      "cell": 64,
+      "action": "fishing",
+      "direction": "south",
+      "frames": 6,
+      "method": "imagegen",
+      "imagegen_output_path": "run/source/64-fishing-south-imagegen.png",
+      "source_path": "run/64/generated/fishing-south.png",
+      "prompt_path": "run/64/prompts/fishing-south.txt"
+    }
+  ],
+  "visual_review": {
+    "path": "run/64/qa/visual-review.json"
+  }
+}

@@ -1,0 +1,9 @@
+Create a game-ready native 64x64 pixel-art character animation strip based closely on the supplied reference image.
+
+One horizontal row of exactly 4 separated 64x64 frames (total logical atlas 256x64). Action: subtle idle loop. Direction: south/front-reference-facing with the character's slight three-quarter stance preserved.
+
+Preserve exactly: compact chibi fisherman proportions; navy blue ribbed knit cap with dark brim; tan face; dark hair/beard pixels; orange-brown jacket and trousers; green backpack/tackle accessory; dark boots; warm earthy limited palette.
+
+Motion: gentle 1-pixel breathing bob, tiny weight shift, cap and pack remain stable; frames must loop smoothly and remain visibly distinct without changing identity.
+
+Flat pure solid chroma-key background #00ff00. No gradient, no panel, no shadows, no floor, no water, no UI, no text, no frame numbers, no borders. Full character centered inside each cell with at least 4 pixels of clearance on every edge. Hard crisp pixel-art edges, no anti-aliasing, no blur, no soft painting. Clear green separation between frames.

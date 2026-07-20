@@ -1,0 +1,9 @@
+Create a game-ready native 64x64 pixel-art fisherman animation strip based closely on the supplied reference image.
+
+One horizontal row of exactly 6 separated 64x64 frames (total logical atlas 384x64). Action: complete fishing cast-and-catch loop. Direction: south/front-reference-facing with a slight three-quarter stance.
+
+Frame poses: 1 ready holding short fishing rod; 2 anticipation with rod drawn back; 3 forward cast with line extending; 4 waiting with rod tip gently bent; 5 strong bite and pull with rod bent; 6 recover holding a tiny caught fish near the line, returning cleanly toward ready. Rod, line, hook, and tiny fish must stay fully inside each 64x64 cell and remain attached/readable.
+
+Preserve exactly: compact chibi fisherman proportions; navy blue ribbed knit cap with dark brim; tan face; dark hair/beard pixels; orange-brown jacket and trousers; green backpack/tackle accessory; dark boots; warm earthy limited palette.
+
+Flat pure solid chroma-key background #00ff00. No gradient, no panel, no shadows, no floor, no water, no UI, no text, no frame numbers, no borders. Full character and fishing gear centered with 2-4 pixels of clearance. Hard crisp pixel-art edges, no anti-aliasing, no blur, no soft painting. Clear green separation between frames.
