@@ -120,7 +120,7 @@ namespace FishingGame.Editor
                 Vector2.zero,
                 new Vector2(720f, 620f));
             Label(
-                "TWITCH CONNECTION",
+                "CHAT FISHING",
                 loginGroup,
                 font,
                 48,

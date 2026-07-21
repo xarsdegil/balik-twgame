@@ -877,7 +877,7 @@ GameObject:
   - component: {fileID: 1515266167}
   - component: {fileID: 1515266166}
   m_Layer: 0
-  m_Name: TWITCH CONNECTION Label
+  m_Name: CHAT FISHING Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -935,7 +935,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: TWITCH CONNECTION
+  m_Text: CHAT FISHING
 --- !u!222 &1515266167
 CanvasRenderer:
   m_ObjectHideFlags: 0
